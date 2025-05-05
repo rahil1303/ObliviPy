@@ -17,10 +17,12 @@ This implementation provides a Pythonic and modular version of Bucket Oblivious 
 
 ---
 
-Basic Sorting Execution
+### Basic Sorting Execution
 
 python main.py
 
-Access Pattern Test
+### Access Pattern Test
+
+python tests/test_obliviousness.py
 
 
