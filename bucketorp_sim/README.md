@@ -12,9 +12,19 @@ This repository provides a minimal and educational Python re-implementation of t
 | `element.py`     | Element class definition used in sorting                   |
 | `server.py`      | Simulated server environment with data storage & logging   |
 | `main.py`        | Basic run/test file to invoke the sorting algorithm        |
-| `permutation.py` | Utility for shuffling or generating permutations           |
+| `permutation.py` | Utility for shuffling or generating permutations. Not used |
 | `test_patterns.py` | Script to compare access pattern logs                    |
-| `requirements.txt` | Python dependencies                                      |
+| `requirements.txt` | Python dependencies. If any, not imported.               |
 
 ---
+
+### Basic Sort Execution
+
+python main.py
+
+
+### Run Access Pattern Tests
+To test whether the access pattern is oblivious:
+
+python test_patterns.py
 
