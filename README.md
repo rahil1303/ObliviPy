@@ -6,9 +6,6 @@ This repository implements the **Bucket Oblivious Sort** algorithm in Python, in
 
 - `bucketorp_py/` – Pythonic implementation (Option B)
 - `bucketorp_sim/` – Object-oriented, closer-to-paper structure (Option A)
-- `tests/` – Scripts to verify obliviousness and compare logs
-- `benchmark_option_a.py` – Benchmark script for Option A
-- `benchmark_option_b.py` – Benchmark script for Option B
 
 ## ⚙️ Requirements
 
