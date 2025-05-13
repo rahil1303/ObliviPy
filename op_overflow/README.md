@@ -1,4 +1,4 @@
-# 🚨 Overflow Detection and Obliviousness Validation
+# Overflow Detection and Obliviousness Validation
 
 This section of the repository is dedicated to testing **bucket overflow handling** and verifying **oblivious access patterns** in the local setup without gRPC.
 
