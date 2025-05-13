@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package oblivious_sort;
+
+service ObliviousSorter {
+  rpc Permute (SortRequest) returns (SortReply);
+  rpc GetAccessLog (AccessLogRequest) returns (AccessLogReply); // 🆕
+}
+
+message SortRequest {
+  repeated int32 input = 1;
+}
+
+message AccessLogRequest {
+  bool clear = 1;
+}
+
+message AccessEntry {
+  string op = 1;
+  string array = 2;
+  int32 index = 3;
+}
+
+message AccessLogReply {
+  repeated AccessEntry log = 1;
+}
+
+message SortReply {
+  repeated int32 output = 1;
+  int32 io_count = 2;
+  double time_taken = 3;
+}
+
