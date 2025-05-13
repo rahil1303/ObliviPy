@@ -25,7 +25,24 @@ This directory contains the complete setup for a gRPC-based system that performs
 
 ## ✅ How to Use
 
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
+### 1. Start the gRPC Server
+python server.py
+
+
+### 2. Run the Client
+python client.py
+
+This sends a fixed input array to the server, and receives the sorted output with I/O stats.
+
+### 3. Test Obliviousness
+Run this to verify if the access pattern is the same for different inputs:
+python test_obliviousness_grpc.py
+
+### 4. Development Notes
+bucket_orp.py is the main algorithm.
+
+gRPC server calls it from inside Permute() in server.py.
+
+Access patterns are tracked via Server in server_sim.py.
+
 
