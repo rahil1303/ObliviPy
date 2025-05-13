@@ -1,11 +1,22 @@
-# Bucket Oblivious Sort (Python Implementation)
+# ObliviPy — Oblivious Permutation & Sort Experiments
 
-This repository implements the **Bucket Oblivious Sort** algorithm in Python, inspired by the C++ implementation. The goal is to build a modular and testable Python version that supports further experimentation, benchmarking, and integration with other oblivious data processing schemes.
+This repository contains multiple implementations and experimental setups for Bucket Oblivious Random Permutation (ORP) and related oblivious sort logic.
 
-## 📁 Structure
+---
 
-- `bucketorp_py/` – Pythonic implementation (Option B)
-- `bucketorp_sim/` – Object-oriented, closer-to-paper structure (Option A)
+## Repository Structure
+
+| Folder / File     | Description |
+|-------------------|-------------|
+| `bucketorp_py/`   | Pythonic implementation with functional style (Option B) |
+| `bucketorp_sim/`  | Object-oriented implementation, closely following the paper (Option A) |
+| `gRPC-Setup/`     | Full gRPC client-server setup for remote oblivious permutation and access log testing |
+| `op_overflow/`    | Scripts for testing overflow limits and theoretical failure rates |
+| `README.md`       | This file |
+
+Each subdirectory contains its own `README.md` describing local purpose, files, and usage instructions.
+
+---
 
 ## ⚙️ Requirements
 
